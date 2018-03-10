@@ -45,37 +45,3 @@ module.exports = {
     }
   }
 }
-
-// async function waitMS(ms) {
-//   await new Promise((resolve) => {
-//     setTimeout(() => {
-//       resolve();
-//     }, ms);
-//   });
-// }
-
-// async function waitMS2(ms) {
-//   await new Promise(resolve => setTimeout(() => resolve(), ms));
-// }
-
-// async function delayedSum(a, b, ms) {
-//   await new Promise(resolve => setTimeout(() => resolve(a + b), ms));
-// }
-
-// async function testSeries(fn, timer) {
-//   return {
-//     time1: await fn(timer),
-//     time2: await fn(timer),
-//   };
-// }
-
-// async function testParallel(fn, timer) {
-//   const res1 = fn(timer);
-//   const res2 = fn(timer);
-//   return {
-//     time1: await res1,
-//     time2: await res2,
-//   };
-// }
-
-// delayedSum(1, 2, 900).then(value => console.log(value));
