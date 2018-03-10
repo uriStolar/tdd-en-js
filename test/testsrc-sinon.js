@@ -7,8 +7,6 @@ module.exports = {
   },
   isAlive (ping) {
     let ping1, ping2, ping3
-    // Hipotetically ping() returns true if websites is accessible
-    // or false otherwise
     try {
       ping1 = ping()
       ping2 = ping()
@@ -25,8 +23,6 @@ module.exports = {
   api: {
     isAlive () {
       let ping1, ping2, ping3
-      // Hipotetically ping() returns true if websites is accessible
-      // or false otherwise
       try {
         ping1 = this.ping()
         ping2 = this.ping()
