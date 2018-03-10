@@ -1,0 +1,40 @@
+{
+  "name": "tdd-en-js",
+  "version": "0.0.1",
+  "description": "Ejemplos de unit testing y TDD en JavaScript",
+  "main": "",
+  "scripts": {
+    "std-check": "./node_modules/.bin/standard",
+    "std-fix": "./node_modules/.bin/standard --fix",
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uriStolar/tdd-en-js.git"
+  },
+  "author": "Uri Stolar <uri.stolar@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "*",
+    "dirty-chai": "^2.0.1",
+    "mocha": "*",
+    "sinon": "^4.4.2",
+    "sinon-chai": "^3.0.0",
+    "standard": "^11.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  }
+}
