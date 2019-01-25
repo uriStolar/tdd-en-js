@@ -33,6 +33,7 @@ describe('Expect & Should (BDD Style)', () => {
 
     it('should return the strings reversed', () => {
       expect(reverseWordRes[0]).to.equal('dog')
+      expect(reverseWordRes[5]).to.equal('stressed')
     })
   })
 })

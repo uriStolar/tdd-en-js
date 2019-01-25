@@ -34,7 +34,7 @@ describe('Async/Await', () => {
 
 describe('Async function', () => {
   describe('asyncTimeout()', () => {
-    it('should be fulfilled returning a string with returning a string with value of "Hello, World!"', async () => {
+    it('should be fulfilled returning a string with returning a string with value of "done"', async () => {
       await testsrc.asyncTimeout().should.be.fulfilled
       const res = await testsrc.asyncTimeout()
       expect(res).to.be.a('string')
